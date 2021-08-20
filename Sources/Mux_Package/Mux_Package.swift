@@ -1,5 +1,5 @@
 import UIKit
-struct Mux_Package {
+public struct Mux_Package {
     var text = "Hello, World!"
     
     init() {
