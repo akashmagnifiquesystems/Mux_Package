@@ -3,7 +3,7 @@ struct Mux_Package {
     var text = "Hello, World!"
     
     public init() {
-        call_Streaminng()
+        
     }
     
     public func start_Streaminng() -> String {
