@@ -6,15 +6,17 @@ struct Mux_Package {
         
     }
     
-    public func start_Streaminng() -> String {
-        return ""
+    public func start_Streaminng() {
+         call_Streaminng { response in
+             print(response)
+        }
     }
     
     public func stop_Streaminng() -> String {
         return ""
     }
 
-    public func call_Streaminng() {
+    public func call_Streaminng(completion: @escaping (NSDictionary) -> Void) {
         let params = ["playback_policy":"public", "new_asset_settings":["playback_policy":"public",]] as Dictionary<String, AnyObject>
         
         let username = "3c942eb3-d47b-4e74-8680-83b9c24dac51"
@@ -38,6 +40,7 @@ struct Mux_Package {
             do {
                 let json = try JSONSerialization.jsonObject(with: data!) as! Dictionary<String, AnyObject>
                 print(json)
+                completion(json as NSDictionary)
             } catch {
                 print("error")
             }
