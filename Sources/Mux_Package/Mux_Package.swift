@@ -2,10 +2,12 @@ import UIKit
 struct Mux_Package {
     var text = "Hello, World!"
     
-    public func start_Streaminng() {
+    public func start_Streaminng() -> String {
+        
          call_Streaminng { response in
              print(response)
         }
+        return ""
     }
     
     public func stop_Streaminng() -> String {
