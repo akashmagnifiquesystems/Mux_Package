@@ -47,7 +47,7 @@ public struct Mux_Package {
 
         var request = URLRequest(url: URL(string: "https://api.mux.com/video/v1/live-streams/\(LIVE_STREAM_ID)")!)
         request.httpMethod = "GET"
-        request.httpBody = try? JSONSerialization.data(withJSONObject: params, options: [])
+//        request.httpBody = try? JSONSerialization.data(withJSONObject: params, options: [])
         request.setValue("Basic \(base64LoginString)", forHTTPHeaderField: "Authorization")
 
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
