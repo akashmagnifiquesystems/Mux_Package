@@ -39,7 +39,7 @@ public struct Mux_Package {
     }
 
     //MARK:- Restrive Live Streaming
-    public func call_Restrive_Streaming(LIVE_STREAM_ID : String, completion: @escaping (NSDictionary) -> Void) {
+    public func call_Retrive_Streaming(LIVE_STREAM_ID : String, completion: @escaping (NSDictionary) -> Void) {
         let params = [:] as Dictionary<String, AnyObject>
         
         let loginString = String(format: "%@:%@", authUserName, authPassword)
