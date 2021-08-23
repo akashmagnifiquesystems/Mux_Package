@@ -36,7 +36,7 @@ public struct Mux_Package {
         }
     }
     
-    //MARK:- Restart Live Streaming
+    //MARK:- Reconnect Live Streaming
     public func restartStreamingCall(Live_Stream_ID : String, completion: @escaping (NSDictionary) -> Void) {
         apiCallHelper.call_Restart_Streaming(Live_Stream_ID: Live_Stream_ID) { response in
             completion(response)
