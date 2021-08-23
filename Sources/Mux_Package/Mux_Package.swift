@@ -16,7 +16,7 @@ public struct Mux_Package {
     }
     
     //MARK:- List of Live Streaming
-    public func getList_Live_Streaming_Call(Live_Stream_ID : String, completion: @escaping (NSDictionary) -> Void) {
+    public func getLiveStreamingListCall(Live_Stream_ID : String, completion: @escaping (NSDictionary) -> Void) {
         apiCallHelper.call_List_Live_Streaming(Live_Stream_ID: Live_Stream_ID) { response in
             completion(response)
         }
