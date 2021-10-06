@@ -10,9 +10,14 @@ import UIKit
 
 public struct API_Call_Helper {
 
-    let authUserName: String = "3c942eb3-d47b-4e74-8680-83b9c24dac51"
-    let authPassword: String = "mxvVn2sFiu9nuvmMyxDntqQsFT3HaZP1a5+DRQeKqs/9idK5Jb80HXhQtgTgOcMwKGFD5P+g2fS"
+    let authUserName: String = "cf85f879-0e70-4ee6-b846-e23d1b7b807a"
+    let authPassword: String = "Mo4C1oSemuqBwZ/q1cRTXJSHhh86CmBa3STPcs5CJE57o74ybG+wjX8aRbZQy0XGgfnyXZ0ABBu"
     let baseURL: String = "https://api.mux.com/video/v1/live-streams"
+
+    
+//    let authUserName: String = "3c942eb3-d47b-4e74-8680-83b9c24dac51"
+//    let authPassword: String = "mxvVn2sFiu9nuvmMyxDntqQsFT3HaZP1a5+DRQeKqs/9idK5Jb80HXhQtgTgOcMwKGFD5P+g2fS"
+//    let baseURL: String = "https://api.mux.com/video/v1/live-streams"
 
     public init() {
         
