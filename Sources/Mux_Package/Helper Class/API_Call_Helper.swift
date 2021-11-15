@@ -16,7 +16,6 @@ public struct API_Call_Helper {
     let authorizationKey: String = "Basic MmNiZGRiMmYtOGQ5My00NGYxLTkxZjUtZDIwZTdlZTVhNWRkOnRzY1J1YW5Xa2dadG9WUFBnai9FN3AwdUtrcVV5VkpmeWRqWnJXMUtOdUZGWlZyNWMrWGtYVkdIcDJLbHVmUkF6QzVIR3J2WTVmRQ=="
 
     public init() {
-        
     }
     
     //MARK:- Create Live Streaming

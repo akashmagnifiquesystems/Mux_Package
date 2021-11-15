@@ -1,3 +1,3 @@
 # Mux_Package
 
-A description of this package.
+Mux package is contains of all APIs whichs is used for live streaming
